@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rainwater Harvesting — Campus Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#home" class="brand">
+      <span class="brand-mark"><i class="fa-solid fa-droplet"></i></span>
+      <span class="brand-text">RainCycle<em>Campus</em></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#how" class="nav-link">How It Works</a>
+      <a href="#calculator" class="nav-link">Calculator</a>
+      <a href="#benefits" class="nav-link">Benefits</a>
+      <a href="#cost" class="nav-link">Cost</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="main building.jpg" alt="Campus main building">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="hero-content">
+    <p class="kicker">College Engineering Project</p>
+    <h1>Rainwater Harvesting</h1>
+    <p class="hero-sub">Sustainable water management for our campus — turning every monsoon into a groundwater deposit instead of a drain.</p>
+    <div class="hero-points">
+      <div class="hero-point"><i class="fa-solid fa-droplet"></i><span>Collect rainwater</span></div>
+      <div class="hero-point"><i class="fa-solid fa-arrows-rotate"></i><span>Recharge groundwater</span></div>
+      <div class="hero-point"><i class="fa-solid fa-hand-holding-droplet"></i><span>Reduce water wastage</span></div>
+    </div>
+    <div class="hero-cta">
+      <a href="#how" class="btn btn-primary">See how it works</a>
+      <a href="#calculator" class="btn btn-ghost">Try the calculator</a>
+    </div>
+  </div>
+  <a href="#why" class="scroll-cue" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="section" id="why">
+  <div class="container split">
+    <div class="split-text">
+      <p class="eyebrow accent-amber">The problem</p>
+      <h2>Why our campus needs this</h2>
+      <ul class="check-list amber">
+        <li><i class="fa-solid fa-triangle-exclamation"></i>Groundwater levels are falling every year</li>
+        <li><i class="fa-solid fa-triangle-exclamation"></i>Campus faces water shortage in peak summer</li>
+        <li><i class="fa-solid fa-triangle-exclamation"></i>Rainwater usually flows away and gets wasted</li>
+      </ul>
+    </div>
+    <div class="split-visual">
+      <div class="stat-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <p class="stat-num">Falling</p>
+        <p class="stat-label">Groundwater table, year on year</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section alt" id="about">
+  <div class="container">
+    <p class="eyebrow">About the project</p>
+    <h2>What is rainwater harvesting?</h2>
+    <p class="lead">A simple, low-cost method of collecting and storing rain instead of losing it as runoff — guided from rooftops and open ground straight back into the soil.</p>
+
+    <div class="card-grid three">
+      <div class="info-card">
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>Our objective</h3>
+        <p>Collect rooftop rainwater efficiently and recharge groundwater naturally.</p>
+      </div>
+      <div class="info-card">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>Our approach</h3>
+        <p>Reduce dependence on external water supply and promote a greener campus.</p>
+      </div>
+      <div class="info-card">
+        <i class="fa-solid fa-university"></i>
+        <h3>Our campus</h3>
+        <p>Large rooftops, wide roads and open lawns make an ideal catchment layout.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TYPES ================= -->
+<section class="section" id="types">
+  <div class="container">
+    <p class="eyebrow">Two approaches</p>
+    <h2>Types of rainwater harvesting</h2>
+    <div class="type-grid">
+      <div class="type-card blue">
+        <i class="fa-solid fa-house"></i>
+        <h3>Rooftop harvesting</h3>
+        <p>Rain falling on building roofs is collected through gutters and pipes, then filtered before storage or recharge.</p>
+      </div>
+      <div class="type-card green">
+        <i class="fa-solid fa-road"></i>
+        <h3>Surface runoff harvesting</h3>
+        <p>Rainwater flowing over open ground and roads is channelled through drains into recharge pits or ponds.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CAMPUS CATCHMENT ================= -->
+<section class="section alt" id="campus">
+  <div class="container">
+    <p class="eyebrow">Our campus</p>
+    <h2>Building &amp; catchment areas</h2>
+    <p class="lead">Rain falling on rooftops can be collected through a network of gutters and downpipes.</p>
+    <div class="photo-grid">
+      <figure>
+        <img src="main building 2.jpg" alt="Campus building rooftop">
+        <figcaption><i class="fa-solid fa-house"></i>Building rooftops</figcaption>
+      </figure>
+      <figure>
+        <img src="building 3.jpg" alt="Campus road">
+        <figcaption><i class="fa-solid fa-road"></i>Roads &amp; paved areas</figcaption>
+      </figure>
+      <figure>
+        <img src="malviya.jpg" alt="Campus green area">
+        <figcaption><i class="fa-solid fa-tree"></i>Green &amp; open areas</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS / FLOW ================= -->
+<section class="section" id="how">
+  <div class="container">
+    <p class="eyebrow">The journey of a raindrop</p>
+    <h2>How the system works</h2>
+
+    <div class="flow" id="flow">
+      <div class="flow-step" data-step="1"><i class="fa-solid fa-cloud-rain"></i><span>Rain</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step" data-step="2"><i class="fa-solid fa-house"></i><span>Rooftop</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step" data-step="3"><i class="fa-solid fa-water"></i><span>Gutter</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step" data-step="4"><i class="fa-solid fa-grip-lines-vertical"></i><span>Downpipe</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step green" data-step="5"><i class="fa-solid fa-filter"></i><span>Filter</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step green" data-step="6"><i class="fa-solid fa-ring"></i><span>Recharge Pit</span></div>
+      <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+      <div class="flow-step green" data-step="7"><i class="fa-solid fa-droplet"></i><span>Groundwater</span></div>
+    </div>
+
+    <!-- Components accordion -->
+    <div class="accordion" id="accordion">
+      <div class="acc-item open">
+        <button class="acc-head"><i class="fa-solid fa-water"></i>Gutters &amp; downpipes<i class="fa-solid fa-chevron-down acc-caret"></i></button>
+        <div class="acc-body"><p>Fixed along the edge of the rooftop, gutters collect the water flowing off the roof, and downpipes carry it down to the ground.</p></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><i class="fa-solid fa-shower"></i>First-flush diverter<i class="fa-solid fa-chevron-down acc-caret"></i></button>
+        <div class="acc-body"><p>Removes the first dirty flow of rainwater, keeping leaves, dust and debris away — improving the quality of collected water.</p></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><i class="fa-solid fa-filter"></i>Filtration unit<i class="fa-solid fa-chevron-down acc-caret"></i></button>
+        <div class="acc-body"><p>Layers of sand, gravel and charcoal filter out fine dirt and small particles, ensuring cleaner water reaches the pit.</p></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><i class="fa-solid fa-ring"></i>Recharge pit<i class="fa-solid fa-chevron-down acc-caret"></i></button>
+        <div class="acc-body"><p>A dug pit filled with layers of filter media lets water slowly seep into the soil, directly recharging the groundwater table.</p></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head"><i class="fa-solid fa-warehouse"></i>Storage &amp; inspection chamber<i class="fa-solid fa-chevron-down acc-caret"></i></button>
+        <div class="acc-body"><p>Stores extra water for gardening and cleaning, while the inspection chamber allows the system to be checked and cleaned easily.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CALCULATOR ================= -->
+<section class="section alt" id="calculator">
+  <div class="container">
+    <p class="eyebrow">Try it yourself</p>
+    <h2>How much water can we harvest?</h2>
+    <p class="lead">Water Harvested = Roof Area × Rainfall × Runoff Coefficient</p>
+
+    <div class="calc-box">
+      <div class="calc-inputs">
+        <label>
+          Roof area (m²)
+          <input type="number" id="roofArea" value="1000" min="0" step="10">
+        </label>
+        <label>
+          Annual rainfall (mm)
+          <input type="number" id="rainfall" value="800" min="0" step="10">
+        </label>
+        <label>
+          Runoff coefficient
+          <input type="range" id="runoff" min="0.1" max="0.95" step="0.05" value="0.80">
+          <span id="runoffVal">0.80</span>
+        </label>
+      </div>
+      <div class="calc-result">
+        <p class="result-label">Estimated water recharged / year</p>
+        <p class="result-num"><span id="resultM3">640</span> m³</p>
+        <p class="result-sub"><span id="resultLitres">6.4</span> lakh litres / year</p>
+      </div>
+    </div>
+    <p class="fine-print"><i class="fa-solid fa-circle-info"></i> Use your campus's actual roof area and local rainfall data for a real estimate. Values above are illustrative.</p>
+  </div>
+</section>
+
+<!-- ================= SITE FACTORS ================= -->
+<section class="section" id="suitability">
+  <div class="container">
+    <p class="eyebrow">Before you dig</p>
+    <h2>Site suitability factors</h2>
+    <div class="card-grid three">
+      <div class="info-card center">
+        <i class="fa-solid fa-mountain"></i>
+        <h3>Soil type</h3>
+        <p>Sandy soil absorbs and passes water faster than clay.</p>
+      </div>
+      <div class="info-card center">
+        <i class="fa-solid fa-droplet"></i>
+        <h3>Water table</h3>
+        <p>Depth should be enough to allow smooth recharge.</p>
+      </div>
+      <div class="info-card center">
+        <i class="fa-solid fa-expand"></i>
+        <h3>Open space</h3>
+        <p>Enough area is needed for the pit and storage tank.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BENEFITS ================= -->
+<section class="section alt" id="benefits">
+  <div class="container">
+    <p class="eyebrow">The payoff</p>
+    <h2>Benefits for our campus</h2>
+    <div class="card-grid four">
+      <div class="benefit-card">
+        <i class="fa-solid fa-droplet"></i>
+        <h3>Groundwater recharge</h3>
+        <p>Improves the water table year after year.</p>
+      </div>
+      <div class="benefit-card">
+        <i class="fa-solid fa-cloud-rain"></i>
+        <h3>Water conservation</h3>
+        <p>Saves rain that would otherwise run off.</p>
+      </div>
+      <div class="benefit-card">
+        <i class="fa-solid fa-seedling"></i>
+        <h3>Greener campus</h3>
+        <p>Supports gardens and open green areas.</p>
+      </div>
+      <div class="benefit-card">
+        <i class="fa-solid fa-coins"></i>
+        <h3>Cost savings</h3>
+        <p>Cuts dependency on external water supply.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHALLENGES ================= -->
+<section class="section" id="challenges">
+  <div class="container split reverse">
+    <div class="split-visual">
+      <div class="stat-card amber">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p class="stat-num">Plan ahead</p>
+        <p class="stat-label">Every system needs upkeep</p>
+      </div>
+    </div>
+    <div class="split-text">
+      <p class="eyebrow accent-amber">Be realistic</p>
+      <h2>Challenges &amp; maintenance</h2>
+      <ul class="check-list amber">
+        <li><i class="fa-solid fa-broom"></i>Clean gutters and roof before monsoon season</li>
+        <li><i class="fa-solid fa-magnifying-glass"></i>Check the filter media every few months</li>
+        <li><i class="fa-solid fa-wrench"></i>Remove blockages from pipes regularly</li>
+        <li><i class="fa-solid fa-calendar-check"></i>Inspect the recharge pit once a year</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COST ================= -->
+<section class="section alt" id="cost">
+  <div class="container">
+    <p class="eyebrow">Planning estimate</p>
+    <h2>Required equipment &amp; estimated cost</h2>
+    <div class="cost-layout">
+      <div class="equip-grid">
+        <div class="equip-item"><i class="fa-solid fa-water"></i>Gutters</div>
+        <div class="equip-item"><i class="fa-solid fa-grip-lines-vertical"></i>PVC Downpipes</div>
+        <div class="equip-item"><i class="fa-solid fa-leaf"></i>Leaf Screen</div>
+        <div class="equip-item"><i class="fa-solid fa-shower"></i>First-Flush System</div>
+        <div class="equip-item"><i class="fa-solid fa-filter"></i>Sand &amp; Gravel Filter</div>
+        <div class="equip-item"><i class="fa-solid fa-ring"></i>Recharge Pit</div>
+        <div class="equip-item"><i class="fa-solid fa-warehouse"></i>Storage Chamber</div>
+      </div>
+      <div class="cost-table">
+        <h3>Estimated cost</h3>
+        <div class="cost-row"><span>Gutters + Downpipes</span><strong>₹40,000</strong></div>
+        <div class="cost-row"><span>Filter Chamber</span><strong>₹25,000</strong></div>
+        <div class="cost-row"><span>Recharge Pits</span><strong>₹60,000</strong></div>
+        <div class="cost-row"><span>Storage / Collection Tank</span><strong>₹50,000</strong></div>
+        <div class="cost-row"><span>Fittings &amp; Miscellaneous</span><strong>₹25,000</strong></div>
+        <div class="cost-total"><span>Total</span><strong>≈ ₹2.0 Lakh</strong></div>
+        <p class="fine-print light">Approximate / planning estimate</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONCLUSION / FOOTER ================= -->
+<footer class="cta-footer" id="conclusion">
+  <div class="hero-media">
+    <img src="impact.jpg" alt="Campus aerial view">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="cta-content">
+    <h2>Expected impact</h2>
+    <p class="lead light">Rainwater harvesting can convert campus rainfall into a useful groundwater resource.</p>
+    <div class="tagline">
+      <span>Collect</span><i class="fa-solid fa-circle-dot"></i><span>Filter</span><i class="fa-solid fa-circle-dot"></i><span>Recharge</span><i class="fa-solid fa-circle-dot"></i><span>Sustain</span>
+    </div>
+    <p class="footer-credit">Raj Kumar Goel Institute of Technology &nbsp;·&nbsp; B.Tech Engineering Project</p>
+  </div>
+</footer>
+
+<button id="toTop" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
